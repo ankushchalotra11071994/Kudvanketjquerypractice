@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+    <script src="jquery.min.js"></script>
+<body>
+  
+window.jQuery||document.write(unescape("%3Cscript src='jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+ <input type="button"  value="clickeme" id="button1"> 
+
+<!-- <script>
+    
+document.getElementById("button1").addEventListener('click',Eventclicked,false);
+function Eventclicked()
+{
+    alert(' button clicked');
+}
+</script> -->
+<script>
+    $(document).ready( function()
+    {
+        $( "#button1" ).click(function() {
+  alert( "Handler for .click() called." );
+});
+
+    }  )
+    
+</script>
+
+
+</body>
+<script>
+
+</script>
+
+</html> 
